@@ -1,0 +1,9 @@
+.mat-card {
+  border: 1px solid black;
+  max-width: 20vh;
+}
+
+.mat-card-image {
+  max-height: 20vh !important;
+  max-width: 20vh !important;
+}

@@ -1,0 +1,41 @@
+<mat-toolbar color="primary">
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+  >
+    <mat-icon>share</mat-icon>
+  </button>
+
+  <app-header></app-header>
+</mat-toolbar>
+
+<mat-sidenav-container class="example-sidenav-container">
+  <mat-sidenav>
+    <app-side-bar class="app-sidebar"></app-side-bar>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="page-wrapper">
+    <div class="page-content">
+      <router-outlet>
+        <!-- <app-spinner></app-spinner> -->
+      </router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

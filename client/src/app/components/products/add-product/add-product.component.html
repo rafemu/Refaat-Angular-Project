@@ -1,0 +1,80 @@
+<div class="formCss">
+  <form [formGroup]="productForm">
+    <div>
+      <mat-form-field>
+        <input
+          matInput
+          type="text"
+          name="name"
+          formControlName="name"
+          placeholder="name "
+        />
+        <mat-error *ngIf="productForm.get('name').invalid"
+          >please insert product name
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select
+          name="categoryId"
+          formControlName="categoryId"
+          placeholder="category"
+          id="categoryId"
+          [(value)]="selectedCategory"
+        >
+          <mat-option
+            *ngFor="let category of categories"
+            [value]="category._id"
+          >
+            {{ category.name }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="productForm.get('categoryId').invalid"
+          >please insert product category
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+          matInput
+          type="text"
+          name="description"
+          formControlName="description"
+          placeholder="description "
+        />
+        <mat-error *ngIf="productForm.get('description').invalid"
+          >please insert product description
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+          matInput
+          type="number"
+          name="price"
+          formControlName="price"
+          placeholder="price "
+        />
+        <mat-error *ngIf="productForm.get('price').invalid"
+          >please insert product price
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          type="text"
+          name="picture"
+          formControlName="picture"
+          placeholder="picture"
+        />
+        <mat-error *ngIf="productForm.get('picture').invalid"
+          >please insert product picture
+        </mat-error>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" (click)="addnewProduct()">
+        {{ buttonAction }} product
+      </button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,8 @@
+<mat-sidenav mode="side" opened>
+  side bar
+  <div fxLayoutAlign="space-around center">
+    <app-add-product
+      (addNewProductEvent)="addNewProduct($event)"
+    ></app-add-product>
+  </div>
+</mat-sidenav>

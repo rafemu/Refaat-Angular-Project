@@ -1,0 +1,27 @@
+<div>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ product.name | titlecase }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="product.picture" alt="Photo of a Shiba Inu" />
+    <mat-card-content>
+      <p>
+        {{ product.description }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <span>{{ product.price }} </span>
+      <button
+        mat-raised-button
+        color="accent"
+        (click)="deleteProducts(product._id)"
+      >
+        DELETE
+      </button>
+      <button mat-raised-button color="accent" (click)="editProduct(product)">
+        EDIT
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,6 @@
+{"message":"Missing env param: DB_SCHEMA","level":"error","timestamp":"2021-05-03T18:42:23.895Z"}
+{"message":"Missing env param: DB_USER","level":"error","timestamp":"2021-05-03T18:42:23.895Z"}
+{"message":"Missing env param: DB_PASSWORD","level":"error","timestamp":"2021-05-03T18:42:23.897Z"}
+{"message":"Missing env param: DB_PORT","level":"error","timestamp":"2021-05-03T18:42:23.897Z"}
+{"message":"Missing env param: DB_HOST","level":"error","timestamp":"2021-05-03T18:42:23.898Z"}
+{"message":"Missing env param: DB_CONNECTION_LIMIT","level":"error","timestamp":"2021-05-03T18:42:23.899Z"}
