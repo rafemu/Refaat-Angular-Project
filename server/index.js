@@ -15,6 +15,7 @@ const logger = require("./logger");
 
 const productsRouter = require("./routes/products");
 const categoriesRouter = require("./routes/categories");
+const authRouter = require("./routes/auth");
 //routes
 // const login = require("./routes/login");
 
@@ -72,6 +73,7 @@ api.get("/health-check", (req, res, next) => {
 // api.use("/auth", login);
 api.use("/products", productsRouter);
 api.use("/categories", categoriesRouter);
+api.use("/auth", authRouter);
 
 api.use((error, req, res, next) => {
   console.log("error handler", error);

@@ -1,9 +1,11 @@
-.mat-card {
-  border: 1px solid black;
-  max-width: 20vh;
+/** No CSS for this example */
+mat-card {
+  margin-bottom: 10px;
 }
 
-.mat-card-image {
-  max-height: 20vh !important;
-  max-width: 20vh !important;
+.cardImage {
+  max-width: 250px;
+  width: 250px;
+  height: 250px;
+  max-height: 250px;
 }

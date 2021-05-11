@@ -21,6 +21,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FilterPipe } from './pipes/filter.pipe';
 import { CartComponent } from './components/cart/cart.component';
 import { EditProductComponent } from './components/products/edit-product/edit-product.component';
+import { LoginComponent } from './components/auth/login/login.component';
+import { RegisterComponent } from './components/auth/register/register.component';
+import { StoreInfoComponent } from './components/auth/store-info/store-info.component';
+import { StoreHistoryComponent } from './components/auth/store-history/store-history.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +38,10 @@ import { EditProductComponent } from './components/products/edit-product/edit-pr
     FilterPipe,
     CartComponent,
     EditProductComponent,
+    LoginComponent,
+    RegisterComponent,
+    StoreInfoComponent,
+    StoreHistoryComponent,
   ],
   imports: [
     BrowserModule,

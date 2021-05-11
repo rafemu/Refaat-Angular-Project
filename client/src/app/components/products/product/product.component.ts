@@ -12,7 +12,9 @@ export class ProductComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log(this.product);
+  }
   deleteProducts(id: string) {
     this.deleteProductEvent.emit(id);
   }

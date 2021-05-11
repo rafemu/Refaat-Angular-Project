@@ -1,6 +1,6 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
-const { signJWT, isAdmin } = require("../controllers/jwt");
+// const { signJWT, isAdmin } = require("../controllers/jwt");
 const router = express.Router();
 const logger = require("../logger");
 const moment = require("moment");
@@ -19,28 +19,30 @@ router.post(
   "/login",
   getValidationFunction("login"),
   async (req, res, next) => {
-    const { userName, password } = req.body;
+    const { email, password } = req.body;
 
     try {
-      logger.info(`tring to login - userName: ${userName} - ${currentTime}`);
-      if (!userName || !password) res.send("error");
-      const result = await isUserRegistered(userName);
+      logger.info(`tring to login - userName: ${email} - ${currentTime}`);
+      if (!email || !password) res.send("no empty fields allowed");
+      const result = await isUserRegistered(email);
+
       if (!result) throw new Error('Invalid UserName!"');
       const passwordIsValid = bcrypt.compareSync(password, result.password);
       if (!passwordIsValid) throw new Error('Invalid Password!"');
-      if (result) {
-        const token = await signJWT(result);
-        logger.info(
-          `currentTime: ${currentTime} ###### Logged User :${result.firstName}  Role : ${result.role}`
-        );
-        res.cookie("auth", token);
+      if (result && passwordIsValid) {
+        // const token = await signJWT(result);
+        // logger.info(
+        //   `currentTime: ${currentTime} ###### Logged User :${result.firstName}  Role : ${result.role}`
+        // );
+        // res.cookie("auth", token);
 
         return res.json({
-          message: `redirect`,
-          id: result.id,
-          username: result.firstName,
-          role: result.role,
-          accessToken: token,
+          result: result,
+          // message: `redirect`,
+          // id: result.id,
+          // username: result.firstName,
+          // role: result.role,
+          // accessToken: token,
         });
       }
     } catch (error) {
@@ -53,21 +55,23 @@ router.post(
   }
 );
 
-const _registerPath = "register";
 router.post(
-  `/${_registerPath}`,
-  getValidationFunction(_registerPath),
+  `/register`,
+  //getValidationFunction("register"),
   async (req, res, next) => {
-    const { userName } = req.body;
+    const { email } = req.body;
     try {
-      const result = await isUserRegistered(userName);
-      if (result) throw new Error(`User ${result.userName} is already exist`);
-      const create = await createUser(req.body);
-      if (create) {
+      // const result = await isUserRegistered(email);
+      // if (result) throw new Error(`User ${result.email} is already exist`);
+      const createNewUser = await createUser(req.body);
+      if (createNewUser) {
         logger.info(
-          `currentTime: ${currentTime} ###### Register New User :${userName}`
+          `currentTime: ${currentTime} ###### Register New User :${email}`
         );
-        return res.json({ message: `Registration completed`, complete: true });
+        return res.json({
+          message: `Registration completed`,
+          result: createNewUser,
+        });
       } else throw new Error("Registration Failed");
     } catch (error) {
       logger.error(`${currentTime} - Registration Failed - ${error.message} `);

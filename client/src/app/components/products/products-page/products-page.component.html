@@ -82,16 +82,21 @@
             ></app-filter-categories>
           </div>
         </div>
-        <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+        <div
+          fxLayout.xs="column"
+          fxLayout="row wrap"
+          fxLayoutGap="10px"
+          ngClass.gt-xs="ml-10"
+        >
           <app-product
             (editProductEvent)="editProductFromStore($event)"
             (deleteProductEvent)="deleteProductFromStore($event)"
             *ngFor="let product of filteredProducts"
             [product]="product"
           ></app-product>
-          <button (click)="prev()" mat-button>Prev</button>
-          <button (click)="next()" style="float: right" mat-button>Next</button>
         </div>
+        <button (click)="prev()" mat-button>Prev</button>
+        <button (click)="next()" style="float: right" mat-button>Next</button>
       </div>
     </div>
   </mat-sidenav-content>

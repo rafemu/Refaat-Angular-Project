@@ -1,27 +1,68 @@
-<div>
-  <mat-card class="example-card">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>{{ product.name | titlecase }}</mat-card-title>
-    </mat-card-header>
-    <img mat-card-image [src]="product.picture" alt="Photo of a Shiba Inu" />
-    <mat-card-content>
-      <p>
-        {{ product.description }}
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <span>{{ product.price }} </span>
-      <button
-        mat-raised-button
-        color="accent"
-        (click)="deleteProducts(product._id)"
-      >
-        DELETE
-      </button>
-      <button mat-raised-button color="accent" (click)="editProduct(product)">
-        EDIT
-      </button>
-    </mat-card-actions>
-  </mat-card>
-</div>
+<!-- <div class="content">
+  <div fxLayout="row wrap">
+    <div fxFlex="25%" *ngFor="let num of [1, 2]">
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>{{ product.name | titlecase }}</mat-card-title>
+        </mat-card-header>
+        <img
+          mat-card-image
+          [src]="product.picture"
+          alt="Photo of a Shiba Inu"
+        />
+        <mat-card-content>
+          <p>
+            {{ product.description }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <span>{{ product.price }} </span>
+          <button
+            mat-raised-button
+            color="accent"
+            (click)="deleteProducts(product._id)"
+          >
+            DELETE
+          </button>
+          <button
+            mat-raised-button
+            color="accent"
+            (click)="editProduct(product)"
+          >
+            EDIT
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div> -->
+
+<mat-card
+  fxFlex.sm="0 1 calc(50%-10px)"
+  fxFlex.md="0 1 calc(33%-10px)"
+  fxFlex.gt-md="0 1 calc(25%-10px)"
+  style="width: 275px"
+>
+  <mat-card-header>
+    <mat-card-title>{{ product.name | titlecase }}</mat-card-title>
+  </mat-card-header>
+  <img class="cardImage" [src]="product.picture" alt="Photo of a Shiba Inu" />
+  <mat-card-content>
+    <p>
+      {{ product.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <span>{{ product.price }} </span>
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="deleteProducts(product._id)"
+    >
+      DELETE
+    </button>
+    <button mat-raised-button color="accent" (click)="editProduct(product)">
+      EDIT
+    </button>
+  </mat-card-actions>
+</mat-card>

@@ -1,14 +1,14 @@
 const Joi = require("@hapi/joi");
 
 const registerSchema = Joi.object().keys({
-  userName: Joi.string().min(1).max(50).required(),
+  email: Joi.string().min(1).max(50).required(),
   firstName: Joi.string().required(),
   lastName: Joi.string().required(),
   password: Joi.string().required(),
 });
 
 const loginSchema = Joi.object().keys({
-  userName: Joi.string().min(1).max(50).required(),
+  email: Joi.string().min(1).max(50).required(),
   password: Joi.string().required(),
 });
 

@@ -6,7 +6,7 @@ import { FilterPipe } from '../../../pipes/filter.pipe';
 import { MediaMatcher } from '@angular/cdk/layout';
 
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
-const CLIENT_DATA_LIMIT = 4;
+const CLIENT_DATA_LIMIT = 8;
 
 @Component({
   selector: 'app-products-page',
