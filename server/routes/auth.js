@@ -1,6 +1,6 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
-// const { signJWT, isAdmin } = require("../controllers/jwt");
+const { signJWT, isAdmin } = require("../controllers/jwt");
 const router = express.Router();
 const logger = require("../logger");
 const moment = require("moment");
@@ -30,19 +30,17 @@ router.post(
       const passwordIsValid = bcrypt.compareSync(password, result.password);
       if (!passwordIsValid) throw new Error('Invalid Password!"');
       if (result && passwordIsValid) {
-        // const token = await signJWT(result);
-        // logger.info(
-        //   `currentTime: ${currentTime} ###### Logged User :${result.firstName}  Role : ${result.role}`
-        // );
-        // res.cookie("auth", token);
-
-        return res.json({
-          result: result,
-          // message: `redirect`,
-          // id: result.id,
-          // username: result.firstName,
-          // role: result.role,
-          // accessToken: token,
+        const token = await signJWT(result);
+        logger.info(
+          `currentTime: ${currentTime} ###### Logged User :${result.firstName}  Role : ${result.role}`
+        );
+        res.cookie("auth", token);
+        let data = result.toJSON();
+        delete data.password;
+        return res.status(200).json({
+          message: "login successful",
+          data,
+          accessToken: token,
         });
       }
     } catch (error) {

@@ -207,3 +207,103 @@
 {"message":"Server started!","level":"info","timestamp":"2021-05-10T21:51:06.528Z"}
 {"message":"tring to login - userName: rafe.mulla@gmail.com - Mon May 10 2021 21:51:06 GMT+0000","level":"info","timestamp":"2021-05-10T21:51:09.878Z"}
 {"message":"tring to login - userName: rafe.mulla@gmail.com - Mon May 10 2021 21:51:06 GMT+0000","level":"info","timestamp":"2021-05-10T21:51:21.321Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T19:55:34.272Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:00:04.307Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:00:04 GMT+0000","level":"info","timestamp":"2021-05-11T20:00:11.728Z"}
+{"message":"Tue May 11 2021 20:00:04 GMT+0000 - Login Failed - jwt is not defined ","level":"error","timestamp":"2021-05-11T20:00:11.877Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:01:34.663Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:14:23.954Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:15:15.285Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:15:15 GMT+0000","level":"info","timestamp":"2021-05-11T20:15:21.434Z"}
+{"message":"Tue May 11 2021 20:15:15 GMT+0000 - Login Failed - signJWT is not defined ","level":"error","timestamp":"2021-05-11T20:15:21.590Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:15:30.750Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:15:30 GMT+0000","level":"info","timestamp":"2021-05-11T20:15:34.390Z"}
+{"message":"currentTime: Tue May 11 2021 20:15:30 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:15:34.558Z"}
+{"message":"Tue May 11 2021 20:15:30 GMT+0000 - Login Failed - user is not defined ","level":"error","timestamp":"2021-05-11T20:15:34.559Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:15:55.466Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:15:55 GMT+0000","level":"info","timestamp":"2021-05-11T20:15:58.774Z"}
+{"message":"currentTime: Tue May 11 2021 20:15:55 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:15:58.924Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:16:43.361Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:16:43 GMT+0000","level":"info","timestamp":"2021-05-11T20:16:45.936Z"}
+{"message":"currentTime: Tue May 11 2021 20:16:43 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:16:46.116Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:17:01.908Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:17:01 GMT+0000","level":"info","timestamp":"2021-05-11T20:17:03.240Z"}
+{"message":"currentTime: Tue May 11 2021 20:17:01 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:17:03.405Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:17:33.201Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:17:33 GMT+0000","level":"info","timestamp":"2021-05-11T20:17:36.728Z"}
+{"message":"currentTime: Tue May 11 2021 20:17:33 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:17:36.886Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:18:13.822Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:18:13 GMT+0000","level":"info","timestamp":"2021-05-11T20:18:15.110Z"}
+{"message":"currentTime: Tue May 11 2021 20:18:13 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:18:15.263Z"}
+{"message":"Tue May 11 2021 20:18:13 GMT+0000 - Login Failed - res.send.json is not a function ","level":"error","timestamp":"2021-05-11T20:18:15.267Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:18:25.499Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:18:25 GMT+0000","level":"info","timestamp":"2021-05-11T20:18:26.833Z"}
+{"message":"currentTime: Tue May 11 2021 20:18:25 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:18:26.990Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:18:54.288Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:18:54 GMT+0000","level":"info","timestamp":"2021-05-11T20:18:56.974Z"}
+{"message":"currentTime: Tue May 11 2021 20:18:54 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:18:57.151Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:19:14.382Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:19:17.573Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:19:17 GMT+0000","level":"info","timestamp":"2021-05-11T20:19:18.380Z"}
+{"message":"currentTime: Tue May 11 2021 20:19:17 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:19:18.593Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:19:45.659Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:19:45 GMT+0000","level":"info","timestamp":"2021-05-11T20:19:49.540Z"}
+{"message":"currentTime: Tue May 11 2021 20:19:45 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:19:49.672Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:19:45 GMT+0000","level":"info","timestamp":"2021-05-11T20:19:51.957Z"}
+{"message":"currentTime: Tue May 11 2021 20:19:45 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:19:52.073Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:20:02.409Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:20:02 GMT+0000","level":"info","timestamp":"2021-05-11T20:20:03.760Z"}
+{"message":"currentTime: Tue May 11 2021 20:20:02 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:20:03.930Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:20:14.745Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:20:14 GMT+0000","level":"info","timestamp":"2021-05-11T20:20:16.461Z"}
+{"message":"currentTime: Tue May 11 2021 20:20:14 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:20:16.622Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:20:14 GMT+0000","level":"info","timestamp":"2021-05-11T20:20:17.597Z"}
+{"message":"currentTime: Tue May 11 2021 20:20:14 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:20:17.712Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:21:01.896Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:21:01 GMT+0000","level":"info","timestamp":"2021-05-11T20:21:03.750Z"}
+{"message":"currentTime: Tue May 11 2021 20:21:01 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:21:03.899Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:21:01 GMT+0000","level":"info","timestamp":"2021-05-11T20:21:05.081Z"}
+{"message":"currentTime: Tue May 11 2021 20:21:01 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:21:05.197Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:21:20.407Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:21:20 GMT+0000","level":"info","timestamp":"2021-05-11T20:21:21.610Z"}
+{"message":"currentTime: Tue May 11 2021 20:21:20 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:21:21.768Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:21:29.614Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:21:29 GMT+0000","level":"info","timestamp":"2021-05-11T20:21:30.985Z"}
+{"message":"currentTime: Tue May 11 2021 20:21:29 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:21:31.134Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:23:52.675Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:23:54.984Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:23:58.044Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:23:57 GMT+0000","level":"info","timestamp":"2021-05-11T20:24:02.920Z"}
+{"message":"currentTime: Tue May 11 2021 20:23:57 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:24:03.111Z"}
+{"message":"Tue May 11 2021 20:23:57 GMT+0000 - Login Failed - Cannot convert undefined or null to object ","level":"error","timestamp":"2021-05-11T20:24:03.116Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:24:26.391Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:24:26 GMT+0000","level":"info","timestamp":"2021-05-11T20:24:28.326Z"}
+{"message":"currentTime: Tue May 11 2021 20:24:26 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:24:28.478Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:24:39.463Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:24:39 GMT+0000","level":"info","timestamp":"2021-05-11T20:24:41.859Z"}
+{"message":"currentTime: Tue May 11 2021 20:24:39 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:24:42.030Z"}
+{"message":"Tue May 11 2021 20:24:39 GMT+0000 - Login Failed - Cannot convert undefined or null to object ","level":"error","timestamp":"2021-05-11T20:24:42.032Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:24:58.669Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:24:58 GMT+0000","level":"info","timestamp":"2021-05-11T20:25:00.625Z"}
+{"message":"currentTime: Tue May 11 2021 20:24:58 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:25:00.783Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:25:15.403Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:25:15 GMT+0000","level":"info","timestamp":"2021-05-11T20:25:16.885Z"}
+{"message":"currentTime: Tue May 11 2021 20:25:15 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:25:17.054Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:25:15 GMT+0000","level":"info","timestamp":"2021-05-11T20:25:19.330Z"}
+{"message":"currentTime: Tue May 11 2021 20:25:15 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:25:19.449Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:25:33.835Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:25:33 GMT+0000","level":"info","timestamp":"2021-05-11T20:25:36.422Z"}
+{"message":"currentTime: Tue May 11 2021 20:25:33 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:25:36.579Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:32:11.017Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:32:10 GMT+0000","level":"info","timestamp":"2021-05-11T20:32:13.156Z"}
+{"message":"currentTime: Tue May 11 2021 20:32:10 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:32:13.311Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:32:36.238Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:32:36 GMT+0000","level":"info","timestamp":"2021-05-11T20:32:41.268Z"}
+{"message":"currentTime: Tue May 11 2021 20:32:36 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:32:41.421Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:33:47.189Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:33:47 GMT+0000","level":"info","timestamp":"2021-05-11T20:33:50.219Z"}
+{"message":"currentTime: Tue May 11 2021 20:33:47 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:33:50.377Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:34:10.361Z"}
+{"message":"tring to login - userName: rafe.mulla@gmail.com - Tue May 11 2021 20:34:10 GMT+0000","level":"info","timestamp":"2021-05-11T20:34:11.067Z"}
+{"message":"currentTime: Tue May 11 2021 20:34:10 GMT+0000 ###### Logged User :rafe  Role : User","level":"info","timestamp":"2021-05-11T20:34:11.224Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-05-11T20:36:08.169Z"}

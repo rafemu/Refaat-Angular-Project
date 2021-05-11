@@ -4,17 +4,13 @@ const { isUserRegistered } = require("../controllers/users");
 
 async function signJWT(data) {
   return new Promise((resolve, reject) => {
-    jwt.sign(
-      { exp: Math.floor(Date.now() / 1000) + 60 * 60 * 8, data },
-      authSec.secret,
-      function (err, token) {
-        if (err) {
-          console.log(err);
-          reject(err);
-        }
-        resolve(token);
+    jwt.sign({ expiresIn: "10h", data }, authSec.secret, function (err, token) {
+      if (err) {
+        console.log(err);
+        reject(err);
       }
-    );
+      resolve(token);
+    });
   });
 }
 
